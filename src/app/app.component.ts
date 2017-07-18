@@ -1,5 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
+import { MdButtonModule } from "@angular/material";
 
+
+@NgModule({
+  imports: [MdButtonModule],
+})
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
